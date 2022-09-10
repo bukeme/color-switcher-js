@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+	transition: all .3s ease-in-out;
+}
+
+#color {
+	font-size: 2rem;
+	margin-bottom: 10px;
+	font-weight: 900;
+}
+
+#switch {
+	padding: 8px;
+	border-radius: 4px;
+	background: green;
+	font-size: 1.3rem;
+	font-weight: 700px;
+	border: none;
+	color: white;
+}
